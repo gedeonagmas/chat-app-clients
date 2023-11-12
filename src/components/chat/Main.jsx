@@ -124,7 +124,8 @@ const Main = () => {
 
   //initialize socket io
   useEffect(() => {
-    setSocket(io(api));
+    setSocket(io(api,{
+      transports: ['websocket'],},));
   }, []);
 
   //online users
