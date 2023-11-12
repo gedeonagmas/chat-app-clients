@@ -19,7 +19,7 @@ import MessageField from './messages/MessageField';
 
 const Main = () => {
   // const api = "https://real-time-chat-4zya.onrender.com";
-  const api = 'http://localhost:5000';
+  const api = 'https://chat-app-server-eight-snowy.vercel.app';
   const navigate = useNavigate();
   const location = useLocation();
   const currentUser = location.state.user;
